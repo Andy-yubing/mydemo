@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,QAAQ;EACP,WAAW,EAAE,OAAO;EACpB,OAAO,EAAE,IAAI;EACb,aAAG;IACF,WAAW,EAAE,MAAM;IACnB,IAAI,EAAC,CAAC;IACN,UAAU,EAAE,MAAM;IAClB,aAAa,EAAE,cAAc;IAC7B,WAAW,EAAE,cAAc;IAC3B,KAAK,EAAE,OAAO;IACd,yBAAa;MACZ,WAAW,EAAE,CAAC",
+"sources": ["../sass/temp.scss"],
+"names": [],
+"file": "temp.css"
+}

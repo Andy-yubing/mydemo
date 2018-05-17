@@ -130,3 +130,15 @@ a:link,a:active,a:visited,a:hover {
 .dn{
     display: none;
 }
+
+.header{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background-color: #000;
+    >h4{
+        line-height: 0.85rem;
+        font-size: 0.35rem;
+        color: #fff;
+    }
+}

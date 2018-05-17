@@ -1,0 +1,14 @@
+.temp_ul {
+  padding-top: 0.85rem;
+  display: flex; }
+  .temp_ul > li {
+    line-height: 0.7rem;
+    flex: 1;
+    text-align: center;
+    border-bottom: 1px solid #000;
+    border-left: 1px solid #000;
+    color: #2c83b8; }
+    .temp_ul > li:first-child {
+      border-left: 0; }
+
+/*# sourceMappingURL=temp.css.map */

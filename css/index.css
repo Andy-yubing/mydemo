@@ -1,3 +1,27 @@
+html, body {
+  height: 100%;
+  width: 100%; }
 
+.main {
+  height: 100%;
+  background: url("../images/background.png");
+  background-size: 100% 100%; }
+  .main ul {
+    padding-top: 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; }
+    .main ul li {
+      width: 35%;
+      margin-bottom: 0.3rem;
+      text-align: center;
+      padding: 0.2rem 0.3rem;
+      background-color: rgba(255, 255, 255, 0.5); }
+      .main ul li > a img {
+        height: 70%; }
+      .main ul li > a > h5 {
+        text-align: center;
+        margin-top: 0.2rem;
+        font-size: 0.4rem; }
 
 /*# sourceMappingURL=index.css.map */
