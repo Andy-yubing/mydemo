@@ -6,6 +6,11 @@ html {
     -ms-text-size-adjust: 100%;
     /* 解决IOS默认滑动很卡的情况 */
     -webkit-overflow-scrolling : touch;
+
+}
+html,body{
+	height: 100%;
+	width: 100%;
 }
 
 /* 禁止缩放表单 */
