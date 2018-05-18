@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>历史记录</title>
+	<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+	<link rel="stylesheet" href="../css/base.css">
+	<link rel="stylesheet" href="../css/history.css">
+	<script src="../js/rem.js"></script>
+	<script src="../lib/jquery.min.js"></script>
+	<script src="../lib/echarts.js"></script>
+	<script src="../js/history.js"></script>
+</head>
+<body>
+	<header class="header">
+        <h4 class="text-center">历史记录</h4>
+    </header>
+	<section class="history">
+		<ul class="history_option">
+			<li>
+				<span>参数</span>
+				<select> 
+				  <option value ="volvo">Volvo</option>
+				  <option value ="saab">Saab</option>
+				</select>
+			</li>
+			<li>
+				<span>时间</span>
+				<select>
+				  <option value ="volvo">Volvo</option>
+				  <option value ="saab">Saab</option>
+				</select>
+			</li>
+		</ul>
+		<div id="history_echarts">
+			
+		</div>
+		<div class="abnormal_log">
+			<span>异常记录:</span>
+			<p>2018-02-02  11:00</p>
+			<p>2018-02-02  11:00</p>
+		</div>
+	</section>
+</body>
+</html>
